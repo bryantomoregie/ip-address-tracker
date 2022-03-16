@@ -1,0 +1,49 @@
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+#map > * {
+    z-index: 0;
+}
+
+p, h2 {
+  font-family: 'Rubik', sans-serif;
+}
+
+.form-control{
+    -webkit-border-radius: 0;
+       -moz-border-radius: 0;
+            border-radius: 0;
+            border-radius: 0.75rem;
+  }
+
+header {
+    overflow: hidden
+}
+
+@include media-breakpoint-up(xxl) {
+    .header-image {
+      width: 100%;
+    }
+  }
+
+.input-container {
+    height: 6vh;
+}
+
+  .btn {
+    border-top-right-radius: 0.75rem;
+    border-bottom-right-radius: 0.75rem;
+    width: 75px
+  }
+
+  div > p {
+      font-size: x-small;
+      margin: 0;
+  }
+
+.data-container {
+  border-radius: 0.75rem;
+}
+
+
+
+
